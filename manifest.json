@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YT Music Mini Player",
+  "version": "1.0.0",
+  "description": "Always-on-top Picture-in-Picture mini-player for YouTube Music.",
+  "minimum_chrome_version": "116",
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["button.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

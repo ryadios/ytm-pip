@@ -1,0 +1,31 @@
+#ytm-pip-button {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin: 0 4px;
+  flex-shrink: 0;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ytm-pip-button:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#ytm-pip-button[aria-pressed="true"] {
+  opacity: 1;
+}
+
+#ytm-pip-button svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
