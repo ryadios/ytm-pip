@@ -1,6 +1,6 @@
 # YT Music Mini Player
 
-Always-on-top Picture-in-Picture mini player for YouTube Music, with album art, track info, seek bar, and playback controls.
+Always-on-top Picture-in-Picture mini player for YouTube Music, with album art, track info, seek bar, playback controls, and mute/volume controls.
 
 ## Install
 
